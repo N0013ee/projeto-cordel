@@ -57,11 +57,28 @@ section.imagem{
     color: white;
     box-shadow: inset 6px 6px 10px 0px rgba(0, 0, 0, 0.345);
     background-size: cover;
-    
+    background-position: right bottom;background-attachment: fixed;
+}
+
+section.imagem2{
+    background-color: rgba(0, 0, 0, 0.341);
+    color: white;
+    box-shadow: inset 6px 6px 10px 0px rgba(0, 0, 0, 0.345);
+    background-size: cover;
     background-position: right bottom;background-attachment: fixed;
 }
 
 section.imagem > p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.599);
+    border-radius: 5px;
+    padding-right: 10px;
+    padding-left: 5px;
+    padding-bottom: 0px;
+    text-shadow: 1.5px 1.5px 0px black;
+}
+
+section.imagem2 > p{
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.599);
     border-radius: 5px;
